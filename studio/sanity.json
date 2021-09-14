@@ -1,11 +1,11 @@
 {
   "root": true,
+  "api": {
+    "projectId": "kjvul3hs",
+    "dataset": "production"
+  },
   "project": {
     "name": "spaghetti"
-  },
-  "api": {
-    "projectId": "izcamart",
-    "dataset": "production"
   },
   "plugins": [
     "@sanity/base",
