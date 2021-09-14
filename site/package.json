@@ -1,8 +1,8 @@
 {
-  "name": "spaghetti",
+  "name": "leisure cooperative",
   "version": "1.0.0",
-  "description": "spaghetti directory",
-  "author": "Kevin Green",
+  "description": "leisure space and stuff directory",
+  "author": "Asher Caplan",
   "license": "MIT",
   "scripts": {
     "start": "npm run dev",

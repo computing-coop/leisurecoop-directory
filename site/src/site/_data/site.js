@@ -1,4 +1,4 @@
 module.exports = {
-  "rootUrl" : "https://spaghetti.directory",
+  "rootUrl" : "https://leisure.coop",
   "buildTime" : new Date()
 }

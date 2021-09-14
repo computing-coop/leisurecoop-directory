@@ -4,7 +4,7 @@ import operator from 'operator'
 const router = operator('#root')
 
 document.addEventListener('DOMContentLoaded', e => {
-  console.log('🍝 Built by Kevin Green');
+  console.log('Built by Asher Caplan');
   app.mount()
 
   window.__app = app
@@ -17,7 +17,7 @@ router.on('after', ({ location }) => {
   if (title) {
     pageTitle = `${title.getAttribute('data-title')} | `
   }
-  document.title = pageTitle + `Spaghetti Directory`
+  document.title = pageTitle + `Leisure Cooperative`
   window.history.pushState({}, '', location)
   app.mount()
 })

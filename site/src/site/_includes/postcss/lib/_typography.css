@@ -93,7 +93,7 @@ a, button {
     &.active {
       background-color: currentColor;
       span {
-        color: #FFCC19;
+        color: #eaebe3;
       }
     }
   }
