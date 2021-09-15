@@ -1,14 +1,14 @@
 ---
-title: Top Chefs - Spaghetti Directory
-subtitle: An interent webring for the 🍝 fam.
+title: Goods | Leisure Cooperative
+subtitle: Shared stuff
 layout: layouts/base.njk
 ---
 
 <div data-component='filters'>
   <div className='f jcc aic mt1 pt1'>
 
-    <button data-filter='identity' class='border'>
-      <span>Mystic</span>
+    <button data-filter='woodworking' class='border'>
+      <span>Woodworking</span>
     </button>
     <button data-filter='copy' class='border'>
       <span>Coach</span>
@@ -25,7 +25,7 @@ layout: layouts/base.njk
   </div>
 
   <div class='mt1 pt1 mb1 user__cols pb1 js-users'>
-    <div class='hidden js-title' data-title='Top Chefs'></div>
+    <div class='hidden js-title' data-title='Goods'></div>
     {%- for user in humans -%}
       <div class='row al x mb1 {% for discipline in user.content.main.discipline  %}
         {{ discipline }}

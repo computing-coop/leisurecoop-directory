@@ -96,8 +96,8 @@ export default {
                     type: 'reference',
                     title: 'Reference',
                     to: [
-                      { type: 'user' },
-                      { type: 'studio' }
+                      { type: 'goods' },
+                      { type: 'transportation' }
                       // other types you may want to link to
                     ]
                   }
