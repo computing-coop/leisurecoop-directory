@@ -25,7 +25,8 @@ export default {
       { value: 'watersports', title: 'Watersports' },
       { value: 'cooking', title: 'Cooking' },
       { value: 'photography', title: 'Photography' },
-      { value: 'gardening', title: 'Gardening' }
+      { value: 'gardening', title: 'Gardening' },
+      { value: 'other', title: 'other' }
     ],
     layout: 'tags'
   }
