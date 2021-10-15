@@ -8,7 +8,7 @@ export default {
   options: {
     list: [
       { value: 'printmaking', title: 'Printmaking' },
-      { value: 'studio', title: 'Access to Studio' },
+      { value: 'space', title: 'Access to Space' },
       { value: 'dyeing', title: 'Natural Dyeing' },
       { value: 'woodworking', title: 'Woodworking' },
       { value: 'ceramics', title: 'Ceramics' },
