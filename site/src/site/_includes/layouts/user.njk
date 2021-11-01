@@ -11,12 +11,12 @@ renderData:
   <div class='hidden js-title' data-title='{{title}}'></div>
   <div class='ac'>
     <h1 class='caps'>{{ title }}</h1>
-    {% if user.content.main.url %}<a class='border' rel='noopener' href='{{ user.content.main.url }}' target='_blank'>website</a>{% endif %}
+    {% if user.content.main.url %}<a class='border' rel='noopener' href='{{ user.content.main.url }}' target='_blank'>contact</a>{% endif %}
   </div>
   <div class='f jcb ais user__flex fw'>
 
     <div class='mt1 x pt1 {% if user.friends.length > 0 %}user__friends-active{% endif %}'>
-      <h4 class='m0 p0'>Projects</h4>
+      <h4 class='m0 p0'>Listings</h4>
       <div class='f projects fw mt1 jcb x aic'>
         {%- for project in user.content.projects -%}
           {% set projectInfo = project.project.content %}
@@ -27,7 +27,7 @@ renderData:
             <h4 class='mt05'>{{projectInfo.main.name}}</h4>
             <div>
 
-              <span class='medium'>Roles</span>: {{project.discipline}}
+              <span class='medium'>Categories</span>: {{project.discipline}}
             </div>
           </div>
         {% else %}

@@ -19,7 +19,7 @@ renderData:
       {% if project.video %}
         <div class='project__single-box rel'>
           <span class='dots'></span>
-          {% if project.content.main.url %}<a class='abs border project__link' href='{{ project.content.main.url }}' target='_blank'>website</a>{% endif %}
+          {% if project.content.main.url %}<a class='abs border project__link' href='{{ project.content.main.url }}' target='_blank'>e-mail</a>{% endif %}
           <video class='block x project__single-image ' autoplay='true' loop='true' poster="{{project.image.url}}?h=500">
             <source src="{{project.video}}" />
           </video>
@@ -28,7 +28,7 @@ renderData:
         <div class='project__single-box rel'>
           <span class='dots'></span>
 
-          {% if project.content.main.url %}<a class='abs border project__link' href='{{ project.content.main.url }}' target='_blank'>website</a>{% endif %}
+          {% if project.content.main.url %}<a class='abs border project__link' href='{{ project.content.main.url }}' target='_blank'>e-mail</a>{% endif %}
           <img class='block project__single-image x' src="{{project.image.url}}?h=500" alt="{{project.cotent.main.name}}" />
         </div>
       {% endif %}
@@ -36,7 +36,7 @@ renderData:
         {% for screen in project.content.main.siteScreens %}
           <div class='project__single-box rel'>
             <span class='dots'></span>
-            {% if project.content.main.url %}<a class='abs border project__link' href='{{ project.content.main.url }}' target='_blank'>website</a>{% endif %}
+            {% if project.content.main.url %}<a class='abs border project__link' href='{{ project.content.main.url }}' target='_blank'>e-mail</a>{% endif %}
             <img class='block project__single-image x' src="{{screen.image.url}}?w=900" alt="{{project.cotent.main.name}}" />
           </div>
         {% endfor %}
