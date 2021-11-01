@@ -11,8 +11,8 @@ permalink: search.json
 {%- endfor -%}
 {%- for project in projects -%}
   {
-    "url": "/websites/{{ project.content.main.slug.current | slug }}/",
-    "type": "website",
+    "url": "/listings/{{ project.content.main.slug.current | slug }}/",
+    "type": "listing",
     "title": "{{ project.content.main.name  }}",
   }{% if not loop.last %},{% endif %}
 {%- endfor -%}
